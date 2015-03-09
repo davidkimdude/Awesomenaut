@@ -5,6 +5,16 @@
  </tileset>
  <tileset firstgid="170" name="meta-tiles" tilewidth="70" tileheight="70">
   <image source="../../../MarioDavidK/public_html/data/img/meta-tiles.png" width="350" height="70"/>
+  <tile id="1">
+   <properties>
+    <property name="type" value="lslope"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="rslope"/>
+   </properties>
+  </tile>
   <tile id="4">
    <properties>
     <property name="type" value="solid"/>
@@ -24,4 +34,16 @@
    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACuAAAArgAAAK4AAACuAAAArgAAAK4AAACuAAAArgAAAK4AAACuAAAArgAAAK4AAACuAAAArgAAAK4AAACuAAAA
   </data>
  </layer>
+ <objectgroup name="BaseEntities">
+  <object name="PlayerBase" x="70" y="420" width="70" height="138">
+   <properties>
+    <property name="PlayerBase" value=""/>
+   </properties>
+  </object>
+  <object name="EnemyBase" x="980" y="418" width="68" height="138">
+   <properties>
+    <property name="EnemyBase" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
