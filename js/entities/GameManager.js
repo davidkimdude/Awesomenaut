@@ -10,6 +10,7 @@ game.GameManager = Object.extend({
         this.now = new Date().getTime();
         
         if(game.data.player.dead){
+            console.log("dead player");
             me.game.world.removeChild(game.data.player);
             me.state.current().resetPlayer(10, 0);
         }
