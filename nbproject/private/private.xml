@@ -5,11 +5,14 @@
         <group>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/play.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/EnemyCreep.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/resources.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/game.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/index.php</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/title.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/entities.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/GameManager.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/PlayerBaseEntity.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/spendExp.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/EnemyBaseEntity.js</file>
         </group>
     </open-files>
