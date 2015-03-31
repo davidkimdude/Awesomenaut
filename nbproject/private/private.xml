@@ -3,17 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/play.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/EnemyCreep.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/loadProfile.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/newProfile.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/resources.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/game.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/index.php</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/game.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/title.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/entities.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/GameManager.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/PlayerBaseEntity.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/spendExp.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/EnemyBaseEntity.js</file>
         </group>
     </open-files>
 </project-private>
