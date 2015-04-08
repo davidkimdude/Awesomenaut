@@ -100,14 +100,13 @@
                 type: "POST",
                 url: "php/controller/create-user.php",
                 data: {
-                    username: ('#username').val(),
-                    password: ('#password').val()
-                }
+                    username: $('#username').val(),
+                    password: $('#password').val()
+                },
                 dataType: "text"
-            });
+            })
             .success(function(response){
                 if(response === 'true'){
-                    echo 'true';
                     me.state.change(me.state.PLAY);
                 }else{
                     alert(response);
