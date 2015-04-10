@@ -16,6 +16,8 @@ game.resources = [
         {name: "load-screen", type:"image", src: "data/img/loadpic.png"},
         {name: "new-screen", type:"image", src: "data/img/newpic.png"},
         {name: "spear", type:"image", src: "data/img/spear.png"},
+        {name: "maxresdefault", type:"image", src: "data/img/maxresdefault.jpg"},
+        {name: "minimap", type:"image", src: "data/img/minimap.png"},
         
 	/* Atlases 
 	 * @example
@@ -28,7 +30,7 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
         
-        {name: "level1", type: "tmx", src: "data/map/level1.tmx"}
+        {name: "level1", type: "tmx", src: "data/map/realreal.tmx"}
         
 	/* Background music. 
 	 * @example
