@@ -10,6 +10,8 @@ game.PlayScreen = me.ScreenObject.extend({
                 
                 this.resetPlayer(10, 0);
                 
+                me.audio.playTrack("bg");
+                
                 var gameTimerManager = me.pool.pull("GameTimerManager", 0, 0, {});
                 me.game.world.addChild(gameTimerManager, 0);
                 
@@ -47,6 +49,8 @@ game.PlayScreen = me.ScreenObject.extend({
 	onDestroyEvent: function() {
 		// remove the HUD from the game world
 		me.game.world.removeChild(this.HUD);
+                
+                me.audio.stopTrack();
 	},
         
         resetPlayer: function(x, y) {

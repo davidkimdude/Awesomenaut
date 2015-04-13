@@ -30,13 +30,15 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
         
-        {name: "level1", type: "tmx", src: "data/map/realreal.tmx"}
+        {name: "level1", type: "tmx", src: "data/map/realreal.tmx"},
         
 	/* Background music. 
 	 * @example
 	 * {name: "example_bgm", type: "audio", src: "data/bgm/"},
 	 */	
-
+        
+        {name: "bg", type: "audio", src: "data/bgm/Rae Sremmurd - No Type.mp3"}
+        
 	/* Sound effects. 
 	 * @example
 	 * {name: "example_sfx", type: "audio", src: "data/sfx/"}
