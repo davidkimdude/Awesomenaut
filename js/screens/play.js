@@ -10,7 +10,7 @@ game.PlayScreen = me.ScreenObject.extend({
                 
                 this.resetPlayer(10, 0);
                 
-                me.audio.playTrack("bg");
+                me.audio.play("bg");
                 
                 var gameTimerManager = me.pool.pull("GameTimerManager", 0, 0, {});
                 me.game.world.addChild(gameTimerManager, 0);

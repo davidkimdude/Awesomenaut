@@ -37,7 +37,7 @@ game.resources = [
 	 * {name: "example_bgm", type: "audio", src: "data/bgm/"},
 	 */	
         
-        {name: "bg", type: "audio", src: "data/bgm/Rae Sremmurd - No Type.mp3"}
+        {name: "bg", type: "audio", src: "data/bgm/song.mp3"}
         
 	/* Sound effects. 
 	 * @example
