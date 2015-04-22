@@ -3,7 +3,7 @@ game.PlayerEntity = me.Entity.extend({
         this.setSuper(x, y);
         this.setPlayerTimers();
         this.setAttributes();
-        this.setFlags();
+        this.setFlags()
         
         this.type = "PlayerEntity";
         me.game.viewport.follow(this.pos, me.game.viewport.AXIS.BOTH);
