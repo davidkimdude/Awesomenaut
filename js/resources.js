@@ -7,10 +7,10 @@ game.resources = [
         
         {name: "background-tiles", type:"image", src: "data/img/background-tiles.png"},
         {name: "meta-tiles", type:"image", src: "data/img/meta-tiles.png"},
-        {name: "player", type:"image", src: "data/img/orcSpear.png"},
+        {name: "player", type:"image", src: "data/img/main.png"},
         {name: "tower", type:"image", src: "data/img/tower_round.svg.png"},
         {name: "creep1", type:"image", src: "data/img/brainmonster.png"},
-        {name: "title-screen", type:"image", src: "data/img/title.png"},
+        {name: "title-screen", type:"image", src: "data/img/ss.jpg"},
         {name: "exp-screen", type:"image", src: "data/img/loadpic.png"},
         {name: "gold-screen", type:"image", src: "data/img/spend.png"},
         {name: "load-screen", type:"image", src: "data/img/loadpic.png"},
@@ -30,14 +30,12 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
         
-        {name: "level1", type: "tmx", src: "data/map/realreal.tmx"},
+        {name: "level1", type: "tmx", src: "data/map/realreal.tmx"}
         
 	/* Background music. 
 	 * @example
 	 * {name: "example_bgm", type: "audio", src: "data/bgm/"},
 	 */	
-        
-        {name: "bg", type: "audio", src: "data/bgm/song.mp3"}
         
 	/* Sound effects. 
 	 * @example
