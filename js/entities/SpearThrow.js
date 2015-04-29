@@ -21,6 +21,7 @@ game.SpearThrow = me.Entity.extend({
     update: function(delta){
         if(this.facing === 'left'){
             this.body.vel.x -= this.body.accel.x * me.timer.tick;
+            this.flipX(false);
         }else{
             this.body.vel.x += this.body.accel.x * me.timer.tick;
         }   
