@@ -22,7 +22,6 @@ game.AllieManager = Object.extend({
     },
     
     creepTimerCheck: function() {
-        console.log("creep");
         if(Math.round(this.now/1000)%10 ===0 && (this.now - this.lastCreep >= 1000)) {
             this.lastCreep = this.now;
             var creepe = me.pool.pull("AllieCreep", 10, 200, {});

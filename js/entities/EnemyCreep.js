@@ -78,7 +78,20 @@ game.EnemyCreep = me.Entity.extend({
                 //calls the loseHealth function and give damage to the tower
                 response.b.loseHealth(game.data.enemyCreepAttack);
         }
+        }if(response.b.type === 'AllieCreep'){
+            this.attacking = true;
+            this.lastAttacking = this.now;
+            this.body.vel.x = 0;
+            //keeps moving the creep to the right to maintain its position
+            this.pos.x = this.pos.x + 1;
+            //checks that it has been at least 1 second after creep hit hte base
+            if((this.now-this.lastHit >= 1000)) {
+                //updates the lasthit timer
+                this.lastHit = this.now;
+                //calls the loseHealth function and give damage to the tower
+                response.b.loseHealth(game.data.enemyCreepAttack);
     }
 }
+    }
 });
 
