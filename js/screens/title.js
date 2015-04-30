@@ -2,8 +2,10 @@ game.TitleScreen = me.ScreenObject.extend({
 	/**	
 	 *  action to perform on state change
 	 */
-	onResetEvent: function() {	
+	onResetEvent: function() {
             me.game.world.addChild(new me.Sprite(0, 0, me.loader.getImage('title-screen')), -10);
+            
+            me.audio.play("jcole");
             
             game.data.option1 = (new (me.Renderable.extend({
                 init: function() {
@@ -47,7 +49,7 @@ game.TitleScreen = me.ScreenObject.extend({
                     me.input.releasePointerEvent("pointerdown", game.data.option1);
                     me.state.change(me.state.LOAD);
                 }
-            })));
+            })));         
         },
 	
 	
