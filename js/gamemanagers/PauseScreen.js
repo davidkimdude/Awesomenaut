@@ -9,7 +9,6 @@ game.PauseScreen = me.ScreenObject.extend({
     
     update: function() {
         this.now = new Date().getTime();
-        
         if(me.input.isKeyPressed("pause") && this.now-this.lastPaused >=1000){
             this.lastPaused = this.now;
             if(!this.buying){
