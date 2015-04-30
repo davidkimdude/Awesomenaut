@@ -1,3 +1,4 @@
+//Makes a creep for you
 game.AllieCreep = me.Entity.extend({
     init: function(x, y, settings) {
         this._super(me.Entity, "init", [x, y, {
@@ -33,10 +34,7 @@ game.AllieCreep = me.Entity.extend({
         if (this.health <= 0) {
             me.game.world.removeChild(this);
         }
-
-        this.now = new Date().getTime();
-        this.body.vel.x += this.body.accel.x * me.timer.tick;
-        console.log("hit");
+        this.walk();
         me.collision.check(this, true, this.collideHandler.bind(this), true);
 
         this.body.update(delta);
@@ -78,5 +76,11 @@ game.AllieCreep = me.Entity.extend({
                 response.b.loseHealth(game.data.enemyCreepAttack);
             }
         }
+    },
+    
+    walk: function(){
+        this.facing = "right";
+        this.body.vel.x += this.body.accel.x * me.timer.tick;
+        this.flipX(true);
     }
 });
