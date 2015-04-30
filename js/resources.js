@@ -10,6 +10,7 @@ game.resources = [
         {name: "player", type:"image", src: "data/img/main.png"},
         {name: "tower", type:"image", src: "data/img/tower_round.svg.png"},
         {name: "creep1", type:"image", src: "data/img/ecreep.png"},
+        {name: "creep2", type:"image", src: "data/img/acreep.png"},
         {name: "title-screen", type:"image", src: "data/img/ss.jpg"},
         {name: "exp-screen", type:"image", src: "data/img/ss.jpg"},
         {name: "gold-screen", type:"image", src: "data/img/ss.jpg"},

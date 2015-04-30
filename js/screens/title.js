@@ -27,8 +27,6 @@ game.TitleScreen = me.ScreenObject.extend({
                 }
             })));
             
-            me.game.world.addChild(game.data.option1);
-            
             game.data.option2 = (new (me.Renderable.extend({
                 init: function() {
                     this._super(me.Renderable, 'init', [380, 340, 250, 50]);

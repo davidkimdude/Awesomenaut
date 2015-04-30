@@ -1,4 +1,4 @@
-game.GameTimerManager = Object.extend({
+game.AllieManager = Object.extend({
     init: function(x, y, settings){
         this.now = new Date().getTime();
         this.lastCreep = new Date().getTime();
@@ -24,7 +24,7 @@ game.GameTimerManager = Object.extend({
     creepTimerCheck: function() {
         if(Math.round(this.now/1000)%10 ===0 && (this.now - this.lastCreep >= 1000)) {
             this.lastCreep = this.now;
-            var creepe = me.pool.pull("EnemyCreep", 10000, 10000, {});
+            var creepe = me.pool.pull("AllieCreep", 1000, 0, {});
             me.game.world.addChild(creepe, 5);
         }
     }

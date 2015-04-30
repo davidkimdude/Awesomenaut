@@ -3,21 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/MiniMap.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/resources.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/php/controller/create-user.php</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/MiniPlayerLocation.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/title.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/data/img/main.png</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/play.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/EnemyCreep.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/php/model/config.php</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/SpearThrow.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/resources.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/index.php</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/game.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/php/controller/create-db.php</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/screens/title.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/gamemanagers/GameManager.js</file>
             <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/entities/entities.js</file>
-            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/gamemanagers/HeroDeathManager.js</file>
+            <file>file:/C:/xampp/htdocs/DavidKAwesomenaut/js/gamemanagers/GameTimeManager.js</file>
         </group>
     </open-files>
 </project-private>
