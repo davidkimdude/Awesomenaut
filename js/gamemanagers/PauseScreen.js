@@ -43,7 +43,7 @@ game.PauseScreen = me.ScreenObject.extend({
         game.data.option1 = (new (me.Renderable.extend({
             init: function() {
                 this._super(me.Renderable, 'init', [270, 240, 300, 50]);
-                this.font = new me.Font("Arial", 46, "white");
+                this.font = new me.Font("Shadows Into Light", 46, "white");
             },
             draw: function(renderer) {
                 this.font.draw(renderer.getContext(), "GAME PAUSED", this.pos.x, this.pos.y);
@@ -58,7 +58,7 @@ game.PauseScreen = me.ScreenObject.extend({
         game.data.option2 = (new (me.Renderable.extend({
             init: function() {
                 this._super(me.Renderable, 'init', [380, 340, 250, 50]);
-                this.font = new me.Font("Arial", 46, "white");
+                this.font = new me.Font("Shadows Into Light", 46, "white");
             },
             draw: function(renderer) {
                 this.font.draw(renderer.getContext(), "TO CONTINUE, PRESS P AGAIN", this.pos.x, this.pos.y);

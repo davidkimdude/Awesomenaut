@@ -48,7 +48,7 @@ game.SpendGold = Object.extend({
         game.data.buytext = new (me.Renderable.extend({
             init: function() {
                 this._super(me.Renderable, 'init', [game.data.pausePos.x, game.data.pausePos.y, 300, 50]);
-                this.font = new me.Font("Arial", 26, "white");
+                this.font = new me.Font("Shadows Into Light", 26, "white");
                 this.updateWhenPaused = true;
                 this.alwaysUpdate = true;
             },

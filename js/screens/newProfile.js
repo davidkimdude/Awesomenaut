@@ -18,7 +18,7 @@ game.NewProfile = me.ScreenObject.extend({
         me.game.world.addChild(new (me.Renderable.extend({
             init: function() {
                 this._super(me.Renderable, 'init', [10, 10, 300, 50]);
-                this.font = new me.Font("Arial", 26, "white");
+                this.font = new me.Font("Shadows Into Light", 26, "white");
             },
             //sets the text
             draw: function(renderer) {
